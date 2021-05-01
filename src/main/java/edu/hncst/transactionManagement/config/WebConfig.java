@@ -33,6 +33,9 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         multipartResolver.setMaxUploadSizePerFile(5*1024*1024);
         multipartResolver.setDefaultEncoding("UTF-8");
         return multipartResolver;
+        /*
+        测试
+        * */
     }
 
     /**
